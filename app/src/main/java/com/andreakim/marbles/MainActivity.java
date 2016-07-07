@@ -11,17 +11,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Person p1 = new Person();
-        Person p2 = new Person();
-        Person p3 = new Person();
-        Person p4 = new Person();
-        Person p5 = new Person();
-        Person p6 = new Person();
-        Person p7 = new Person();
     }
 
     TextView tv = (TextView)findViewById(R.id.textView);
-
 
 
 }
