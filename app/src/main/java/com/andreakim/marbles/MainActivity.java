@@ -49,8 +49,16 @@ ___
 p3 has 5 marbles and no children
 ___
 p4 has 7 marbles of his own and 11 including those of his children
-p8 is child of p7
-p8 has 4 marbles and no children
+p7 is child of p4
+p7 has 4 marbles and no children
 ________________________________________________________
+
+p7 = 4 + 0 = 4
+p4 = p7(4) + 7 = 11
+p3 = 5 + 0 = 5
+p2 = 1 + p5(2) + p6(3) = 6
+p5 = 2 + 0 = 2
+p6 = 3 + 0 = 3
+p1 = 10 + p2(6) + p3(5) + p4(7) = 32
 
 */
